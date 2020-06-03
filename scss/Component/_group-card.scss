@@ -1,0 +1,26 @@
+.group-card{
+    .subtitle{
+        margin-bottom: 1rem;
+    }
+
+    &-list{
+        padding: 1rem 0;
+        border-bottom: 1px solid $gray-300;
+        position: relative;
+
+        .name{
+            font-size: .9rem;
+            font-weight: 600;
+            display: block;
+        }
+
+        .date{
+            font-size: .8rem;
+        }
+        .close{
+            position: absolute;
+            right: 0;
+            top: 1rem;
+        }
+    }
+}

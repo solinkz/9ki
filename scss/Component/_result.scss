@@ -1,0 +1,150 @@
+.result{
+    &-heading{
+        font-family: 'Domine',serif;
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    &-personal-info{
+        text-align: center;
+        margin-bottom: 2rem;
+        .name{
+            color: $secondary;
+            font-weight: 600;
+            display: block;
+        }
+    }
+    &-energy{
+        display: grid;
+        column-gap: .5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 2rem;
+
+        &-vert{
+            grid-template-columns: 1fr;
+            row-gap: .5rem;
+            margin-top: 1rem;
+
+            .result-energy-item{
+                background-color: $white;
+                text-align: left;
+                font-size: .8rem;
+                color: $gray-700;
+            }
+        }
+        &-item{
+            padding: 6px 1rem;
+            background-color: $light;
+            border-radius: 4px;
+            text-align: center;
+            color: $gray-700;
+        }
+    }
+
+    &-report form{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid $gray-300;
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        input{
+            border: 0;
+            
+            &:focus{
+                outline: 0;
+            }
+        }
+
+        .btn-report{
+            // padding: 1rem;
+
+        }
+    }
+
+    &-card{
+        background-color: rgba($primary, .2);
+        border: none;
+
+        &-list{
+            margin-top: 2rem;   
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+
+        }
+
+        &-item{
+            width: 11rem;
+            flex: 0 0 20%;
+
+            &:not(:last-child){
+                margin-right: 2rem;
+            }
+            .name{
+                font-size: .9rem;
+                font-weight: 600;
+                display: block;
+            }
+    
+            .date{
+                font-size: .8rem;
+            }
+        }
+    }
+
+
+    // description
+
+    &-description{
+        position: relative;
+        h2{
+            font-weight: 600;
+        }
+
+        img{
+            width: 23rem;
+        }
+
+        &-body{
+            height: 80vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buttons{
+            width: 9rem;
+            position: absolute;
+            left: -15rem;
+            bottom: 0;
+
+            button{
+                display: block;
+                margin-bottom: 1rem;
+                width: 7rem;
+
+                &.btn-fire{
+                    color: #F41B2E !important;
+                }
+                &.btn-water{
+                    color: #000 !important;
+                }
+                &.btn-earth{
+                    color: #FFC90C !important;
+                }
+                &.btn-wood{
+                    color: #94C83F !important;
+                }
+                &.btn-metal{
+                    color: #6E6F71 !important;
+                }
+            }
+        }
+    }
+}

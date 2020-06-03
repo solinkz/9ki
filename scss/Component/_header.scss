@@ -1,0 +1,43 @@
+.header{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/img/bg.jpg) ;
+    background-size: cover;
+
+    &-small{
+        padding: 5rem;
+        text-align: center;
+        background-color: $primary;
+        h2{
+            color: $secondary;
+        }
+    }
+
+    &-content{
+        text-align: center;
+        @include respond(tab){
+            width: 55%;
+        }
+        h1{
+            margin-bottom: 1.5rem;
+        }
+        p{
+            color: $light;
+        }
+    }
+
+    &-cta{
+        margin-top: 3rem;
+        a:not(:last-child){
+            margin-bottom: 1rem;
+
+            @include respond(tab){
+                margin-right: 1rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

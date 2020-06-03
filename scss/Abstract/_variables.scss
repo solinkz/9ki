@@ -1,0 +1,65 @@
+// colors
+$primary:                   #A8D5E2;
+$secondary:                 #2F6690;
+$light:                     #F7F7F8;
+
+$dark:                      #111111;
+$gray-800:                  #333333;
+
+$white:                     #ffffff;
+
+
+// typography
+$base:                        1rem;                   
+
+$h1-font-size:                52px;
+$h2-font-size:                44px;
+$h3-font-size:                32px;
+$h4-font-size:                26px;
+$h5-font-size:                20px;
+
+
+$subtitle:                    16px;
+$font-size-sm:                12px;
+
+
+$font-family-serif:           'Domine',serif;
+$font-family-sans:            'Roboto', sans-serif;
+
+
+// button
+$btn-border-radius:            0;
+$btn-border-color:             transparent;
+$btn-font-size:                14px;
+$btn-font-weight:              700;
+$btn-padding-y:                .7rem;      
+$btn-padding-x:                2.2rem;
+$btn-line-height:              1.2;
+
+$btn-border-radius-lg:            0;
+$btn-border-color-lg:             transparent;
+$btn-font-size-lg:                14px;
+$btn-font-weight-lg:              700;
+$btn-line-height:              1.2;
+
+$btn-padding-y-lg:             1rem;      
+$btn-padding-x-lg:             3rem;
+
+
+
+// nav
+$navbar-padding-y:             $base * 1.5;
+$navbar-padding-x:             $base * 0;
+
+
+// form
+$input-color:                  $gray-800;
+$input-border-radius:          0;
+$input-border-width:           0;
+$input-bg:                     $light;
+$input-focus-bg:               $white;
+
+
+// modal
+$modal-md:                     700px;
+$modal-content-border-radius:  0;

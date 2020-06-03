@@ -1,0 +1,34 @@
+.subscription{
+    padding: 10rem 0;
+    background-color: $light;
+
+    &-content{
+        text-align: center;
+        h1{
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 3rem;
+        }
+    }
+
+    &-form{
+        display: flex;
+        justify-content: center;
+        input{
+            width: 70%;
+            border: 0;
+            background-color: $white;
+            padding: 1rem .8rem;
+            border-radius: 0;
+        }
+
+        button{
+            border: none;
+            padding: 1rem 2rem;
+            background-color: $secondary;
+            color: $white;
+            font-size: $btn-font-weight;
+        }
+    }
+}

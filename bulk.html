@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/starter.css">
+
+    <title>Get group dynamics</title>
+  </head>
+  <body>
+
+	<div id="app">
+		<!-- nav -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-md">
+				
+				<a class="navbar-brand" href="#">
+					<img src="assets/img/logo.png" alt="Fawn chang" height="49">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+						<a class="btn btn-primary" href="#">Login</a>
+						</li>
+						<li class="nav-item">
+						<a class="btn btn-light" href="#">Sign up</a>
+						</li>
+						
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+
+        <!-- header -->
+        <header class="header-small">
+            <h2>Know your elements</h2>
+            <p>Add multiple details for group dynamics</p>
+        </header>
+
+        <!-- main body -->
+        <div class="collection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="sidemenu">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="knowelement.html" class="nav-link">
+                                        <span class="icon">
+                                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z" fill="#828282"/>
+                                            </svg>
+                                                
+                                        </span>
+                                        <span>Know your element</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="bulk.html" class="nav-link active">
+                                        <span class="icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 13H19V11H5V13ZM3 17H17V15H3V17ZM7 7V9H21V7H7Z" fill="#2F6690"/>
+                                            </svg>
+                                                
+                                        </span>
+                                        <span>Group dynamics</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-area pl-5">
+                            <!-- top section -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="name">Provide your name</label>
+                                            <input type="text" class="form-control" name="name" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="text" class="form-control" name="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="dob">Date of birth(YYYY-MM-DD)</label>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <input type="text" name="year" class="form-control" placeholder="Year">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" name="month" class="form-control" placeholder="Month">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="text" name="day" class="form-control" placeholder="Day">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="alert alert-custom">
+                                            <div class="alert-title">Disclaimer</div>
+                                            <span>Information collected here is never saved.</span>
+                                        </div>
+
+                                        <button class="btn btn-outline-secondary mr-3" type="button" >Add</button>
+                                        <button type="reset" class="btn btn-light">cancel</button>
+                                    </form>
+
+
+
+                                    <!-- modal -->
+                                    
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                
+                                            <div class="owl-carousel owl-theme">
+                                                <div class="modal-body">
+                                                    <div class="result">
+                                                        <h4 class="result-heading">Success</h4>
+                                                        
+                                                        <div class="result-personal-info">
+                                                            <span class="name">Scott Gilbert</span>
+                                                            <span class="date">2013-09-19</span>
+                                                        </div>
+    
+                                                        <div class="result-energy">
+                                                            <span class="result-energy-item">Adult energy: 5</span>
+                                                            <span class="result-energy-item">Child energy: 7</span>
+                                                            <span class="result-energy-item">Resolution energy: 1</span>
+                                                        </div>
+    
+                                                        <div class="result-report">
+                                                            <form action="">
+                                                                <input type="email" name="email" id="email" value="scottgilbert@gmail.com">
+                                                                <button type="submit" class="btn btn-report btn-secondary">Submit</button>
+                                                            </form>
+                                                        </div>
+                                                        <div class="text-center">
+    
+                                                            <button class="btn btn-primary">Continue</button>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="result">
+                                                        <h4 class="result-heading">Success</h4>
+                                                        
+                                                        <div class="result-personal-info">
+                                                            <span class="name">Scott Gilbert</span>
+                                                            <span class="date">2013-09-19</span>
+                                                        </div>
+    
+                                                        <div class="result-energy">
+                                                            <span class="result-energy-item">Adult energy: 5</span>
+                                                            <span class="result-energy-item">Child energy: 7</span>
+                                                            <span class="result-energy-item">Resolution energy: 1</span>
+                                                        </div>
+    
+                                                        <div class="result-report">
+                                                            <form action="">
+                                                                <input type="email" name="email" id="email" value="scottgilbert@gmail.com">
+                                                                <button type="submit" class="btn btn-report btn-secondary">Submit</button>
+                                                            </form>
+                                                        </div>
+                                                        <div class="text-center">
+    
+                                                            <button class="btn btn-primary">Continue</button>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="result">
+                                                        <h4 class="result-heading">Success</h4>
+                                                        
+                                                        <div class="result-personal-info">
+                                                            <span class="name">Scott Gilbert</span>
+                                                            <span class="date">2013-09-19</span>
+                                                        </div>
+    
+                                                        <div class="result-energy">
+                                                            <span class="result-energy-item">Adult energy: 5</span>
+                                                            <span class="result-energy-item">Child energy: 7</span>
+                                                            <span class="result-energy-item">Resolution energy: 1</span>
+                                                        </div>
+    
+                                                        <div class="result-report">
+                                                            <form action="">
+                                                                <input type="email" name="email" id="email" value="scottgilbert@gmail.com">
+                                                                <button type="submit" class="btn btn-report btn-secondary">Submit</button>
+                                                            </form>
+                                                        </div>
+                                                        <div class="text-center">
+    
+                                                            <button class="btn btn-primary">Continue</button>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                          
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="col-md-5 offset-md-1">
+   
+                                    <!-- for showing info added -->
+                                    <div class="card mb-4">
+                                        <div class="card-body">
+                                            <div class="group-card">
+                                                <h5 class="subtitle text-secondary">Group (3 members)</h5>
+                                                
+                                                <div class="group-card-list">
+                                                   <span class="name">Esther Robertson</span>
+                                                   <span class="date">2013-09-19</span>
+
+                                                   <span class="close">&times;</span>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Continue</button>
+                                </div>
+                            </div>
+                            <!-- bottom section 
+                                
+                                checkbox
+                                and payment form will display here
+                                
+                            -->
+                            <div class="collection-paidreport">
+                                <div class="form-group">
+                                    <input type="checkbox" name="paidreport" id="forpaidreport">
+                                    <label for="forpaidreport">Get paid report</label>
+                                </div>
+
+                                <div class="paidreport collapse" id="collapsePaidreport">
+                                    <div class="paidreport-price">
+                                        <span class="price">$28</span>
+                                        <span class="d-block small"> Individual report</span>
+                                    </div>
+
+                                    <!-- stripe form -->
+
+                                    <form action="" class="mb-5">
+                                        <div class="form-group">
+                                            <label for="" class="subtitle mb-4">Credit or Debit card</label>
+
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <div class="form-type-borderless">
+                                                        <div class="row">
+                                                            <div class="col-1">
+                                                                <span class="icon">
+                                                                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M18 0H2C0.897 0 0 0.897 0 2V14C0 15.103 0.897 16 2 16H18C19.103 16 20 15.103 20 14V2C20 0.897 19.103 0 18 0ZM10.5 12C9.83696 12 9.20107 11.7366 8.73223 11.2678C8.26339 10.7989 8 10.163 8 9.5C8 8.83696 8.26339 8.20107 8.73223 7.73223C9.20107 7.26339 9.83696 7 10.5 7C11.0427 7.00125 11.5698 7.18119 12 7.512C11.396 7.968 11 8.685 11 9.5C11 10.315 11.396 11.032 12 11.488C11.5698 11.8188 11.0427 11.9987 10.5 12ZM14.5 12C13.837 12 13.2011 11.7366 12.7322 11.2678C12.2634 10.7989 12 10.163 12 9.5C12 8.83696 12.2634 8.20107 12.7322 7.73223C13.2011 7.26339 13.837 7 14.5 7C15.163 7 15.7989 7.26339 16.2678 7.73223C16.7366 8.20107 17 8.83696 17 9.5C17 10.163 16.7366 10.7989 16.2678 11.2678C15.7989 11.7366 15.163 12 14.5 12Z" fill="#BDBDBD"/>
+                                                                    </svg>
+                                                                        
+                                                                </span>
+                                                            </div>
+                                                            <div class="col-7">
+                                                                <input type="text" name="cardno" placeholder="card number" maxlength="16">
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <input type="text" name="mmyy" placeholder="MM/YY" maxlength="5">
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <input type="text" name="cvc" placeholder="CVC" maxlength="3">
+    
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3"> 
+                                                    <button type="submit" class="btn paidreport-btn btn-secondary w-100 small">submit payment</button>
+                                                </div>
+                                            </div>
+                                            <span class="small text-secondary font-weight-bold  ">Please remember to copy your payment code</span>
+                                        </div>
+                                    </form>
+
+                                    <!-- payment code form -->
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="" class="subtitle mb-4">have you paid and have not gotten your report?</label>
+
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <div class="form-type-borderless">
+                                                        <div class="row">
+                                                           
+                                                            <div class="col">
+                                                                <input type="text" name="cardno" placeholder="Insert your payment code">
+                                                            </div>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3"> 
+                                                    <button type="submit" class="btn paidreport-btn btn-secondary w-100 small">submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+        
+        
+        
+        
+		<!-- FOoter -->
+		<footer class="footer ">
+			<img src="assets/img/logo.png" alt="logo">
+			<p>copyright &copy; 2020 
+			</p>
+		</footer>
+	</div>
+
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    
+    <!-- Optional JavaScript -->
+    <script src="assets/js/starter.js"></script>
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:0,
+    nav:true,
+    dots: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    </script>
+  </body>
+</html>

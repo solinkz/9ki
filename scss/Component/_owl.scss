@@ -1,0 +1,38 @@
+.owl{
+
+    &-prev,&-next{
+        font-size:40px !important;
+        font-weight: 600 !important;
+        display: inline-block !important;
+    }
+    
+    &-prev{
+        float: left;
+        margin-left: 1rem !important;
+    }
+
+    &-next{
+        float: right;
+        margin-right: 1rem !important;
+    }
+
+    &-dots{
+        display: flex;
+        justify-content: center;
+    }
+
+    &-dot{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: $gray-300 !important;
+
+        &:not(:last-child){
+            margin-right: .8rem;
+        }
+
+        &.active{
+            background-color: $primary !important;
+        }
+    }
+}

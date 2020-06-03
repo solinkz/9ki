@@ -1,0 +1,35 @@
+
+@import "Abstract/variables";
+@import "Abstract/mixins";
+@import "Abstract/utility";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Base
+@import "Base/base";
+@import "Base/typography";
+
+
+// component
+@import "Component/alert";
+@import "Component/button";
+@import "Component/group-card";
+@import "Component/header";
+@import "Component/modal";
+@import "Component/owl";
+@import "Component/report";
+@import "Component/result";
+@import "Component/scrollbar";
+@import "Component/sidemenu";
+@import "Component/subscription";
+
+
+// layout
+@import "layout/footer";
+
+// pages
+
+@import "page/collection";
+@import "page/home";
+

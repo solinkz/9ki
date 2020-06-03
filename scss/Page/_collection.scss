@@ -1,0 +1,39 @@
+.collection{
+    padding: 5rem 0;
+
+    &-paidreport{
+        margin-top: 3rem;
+    }
+
+    .paidreport{
+        padding: 2rem;
+        background-color: $light;
+
+        &-price{
+            .price{
+                font-size: 2.6rem;
+                font-weight: 600;
+                color: $secondary;
+                line-height: 1.2;
+            }
+
+            margin-bottom: 3rem;
+        }
+    }
+    .form-type-borderless{
+        background-color: $white;
+        padding: 1rem;
+        input{
+            border: 0;
+            background-color: transparent;
+
+            &:focus{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    .paidreport-btn{
+        padding: 1.2rem 1rem !important;  
+    }
+}

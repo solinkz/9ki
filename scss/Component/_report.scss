@@ -1,0 +1,14 @@
+.report{
+    &-heading{
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    &-personal-info{
+        text-align: center;
+        .name{
+            color: $primary;
+            font-weight: 600;
+        }
+    }
+}
